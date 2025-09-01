@@ -3,12 +3,16 @@ set -euo pipefail
 
 # --- helpers ---
 make_title() {
-  # underscores -> spaces; capitalize first char (portable: tr + awk)
+  # underscores -> spaces; title-case each word
   local name="$1"
-  local spaced
-  spaced=$(printf '%s' "$name" | tr '_' ' ')
-  # uppercase the very first character only
-  printf '%s' "$spaced" | awk '{ $0 = toupper(substr($0,1,1)) substr($0,2); print }'
+  echo "$name" \
+    | tr '_' ' ' \
+    | awk '{
+        for (i=1; i<=NF; i++) {
+          $i = toupper(substr($i,1,1)) substr($i,2)
+        }
+        print
+      }'
 }
 
 # mapping: old_path,new_url
