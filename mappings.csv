@@ -1,0 +1,10 @@
+batch_inference_v2,https://github.com/mlrun/functions/tree/master/functions/src/batch_inference_v2
+feature_selection/feature_selection.ipynb,https://github.com/mlrun/functions/blob/development/functions/src/feature_selection/feature_selection.ipynb
+v2_model_server/v2_model_server.ipynb,https://github.com/mlrun/functions/blob/master/functions/src/v2_model_server/v2_model_server.ipynb
+silero_vad,https://github.com/mlrun/functions/tree/development/functions/src/silero_vad
+transcribe,https://github.com/mlrun/functions/tree/master/functions/src/transcribe
+pii_recognizer,https://github.com/mlrun/functions/tree/master/functions/src/pii_recognizer
+question_answering,https://github.com/mlrun/functions/tree/master/functions/src/question_answering
+sklearn_classifier/sklearn_classifier.ipynb,https://github.com/mlrun/functions/blob/master/functions/src/sklearn_classifier/sklearn_classifier.ipynb
+auto_trainer,https://github.com/mlrun/functions/tree/development/functions/src/auto_trainer
+batch_inference_v2/batch_inference_v2.ipynb,https://github.com/mlrun/functions/blob/master/functions/src/batch_inference_v2/batch_inference_v2.ipynb
